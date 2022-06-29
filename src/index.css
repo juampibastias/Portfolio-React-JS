@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #fff;
+  background: black;
 }
 
 h1,
@@ -35,7 +35,6 @@ ul {
 }
 
 .btn-light {
-  /* background: rgba(255, 255, 255, 0.2); */
   background: transparent;
   color: #fff;
 }
