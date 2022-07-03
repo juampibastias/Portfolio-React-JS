@@ -11,13 +11,16 @@ const HeroImg = () => {
       </div>
       <div className="content">
         <p>Hola! Soy Juan Pedro</p>
-        <h1>DEVELOPER FULL STACK</h1>
+        <h1>Developer Full Stack</h1>
         <div>
+        <Link to="/tecnologias" className="btn">
+            Tecnologias
+          </Link>
           <Link to="/project" className="btn">
-            Projects
+            Proyectos
           </Link>
           <Link to="/project" className="btn btn-light">
-            Contact
+            Contacto
           </Link>
         </div>
       </div>

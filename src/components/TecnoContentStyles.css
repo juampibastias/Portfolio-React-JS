@@ -1,0 +1,53 @@
+.tecno {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+.tecno-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.tecno-h1{
+    text-align: center;
+}
+
+.mask-icon{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.icon-img{
+    width: 25%;
+    margin: 2rem;
+}
+
+.cursos{
+    text-align: center;
+    margin: 2rem;
+}
+.cursos-img{
+    width: 75%;
+}
+
+.cert{
+    margin-bottom: 2rem;
+}
+
+h4{
+    margin: 1rem;
+}
+
+.mask-cursos{
+    margin: 2rem;
+}
+
+
+.right{
+    align-items: flex-end;
+}
