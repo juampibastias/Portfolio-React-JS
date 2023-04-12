@@ -19,7 +19,7 @@ const HeroImg = () => {
           <Link to="/project" className="btn">
             Proyectos
           </Link>
-          <Link to="/project" className="btn btn-light">
+          <Link to="/contact" className="btn btn-light">
             Contacto
           </Link>
         </div>

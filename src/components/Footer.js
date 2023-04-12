@@ -45,22 +45,42 @@ const Footer = () => {
           <h4>Queres Contratarme?</h4>
           <p>Estoy listo para comenzar!!</p>
           <div className="social">
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaInstagram
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaWhatsapp
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaGithub
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <a
+              href="https://linkedin.com/in/juanpedrobastiastorresi-541b72216"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a
+              href="https://instagram.com/juanpi_bt?igshid=ZDdkNTZiNTM="
+              target="_blank"
+            >
+              <FaInstagram
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a
+              href="https://wa.me/+5492634538584"
+              target="_blank"
+            >
+              <FaWhatsapp
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a
+              href="https://github.com/juampibastias/"
+              target="_blank"
+            >
+              <FaGithub
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
